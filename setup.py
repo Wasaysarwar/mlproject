@@ -3,7 +3,7 @@ from setuptools import find_packages,setup
 
 def get_requirements(file_path:str)->list[str]:
     '''
-    this function return the list of requrements
+    this function return the list of requirements
     '''
     requirements = []
     with open(file_path) as file_obj:
